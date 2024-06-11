@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazone_Clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="nav-logo border">
+        <div class="logo">
+
+        </div>
+      </div>
+
+      <div class="nav-address border">
+
+        <div class="address_icon">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+
+        <div>
+          <p class="address_1">Delive to</p>
+          <p class="address_2">India</p>
+
+
+        </div>
+
+
+
+      </div>
+      <div class="nav-search ">
+        <select class="search-select">
+          <option value="">All</option>
+        </select>
+        <input class="search-input" type="text" placeholder="Search Amazon">
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="language-box border">
+
+        <div class="flag">
+          <img src="/amazone_clone/flag.png">
+        </div>
+        <div class="language">
+          <p><b>EN</b></p>
+        </div>
+        <div class="symbol">
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+      </div>
+
+      <div class="account-box border">
+
+
+        <p><span>Hello, sign in</span></p>
+
+        <p class="text_2"><b>Account & Lists</b></p>
+
+
+
+        <div class="symbol_2">
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+
+      </div>
+
+      <div class="order-box border">
+        <p style="margin-left:-10px ;"><span>Returns</span></p>
+        <p class="text_2"><b>& Orders</b></p>
+      </div>
+
+      <div class="cart-box border">
+        <div class="cart-icon">
+          <div class="cart"><i class="fa-solid fa-cart-shopping fa-2xl"></i></div>
+
+          <div class="zero"><i class="fa-solid fa-0" style="color: #e49307;"></i></div>
+        </div>
+
+        <div class="spell">
+          <p><b>Cart</b></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="nav_2">
+      <div class="nav_2_box_1 border">
+        <div><i class="fa-solid fa-bars fa-sm"></i>
+        </div>
+        <div>
+          <p>All</p>
+        </div>
+
+      </div>
+
+      <div class="nav_2box_2  ">
+        <div class=" a border">Today's Deals</div>
+        <div class="b border">Customer Service</div>
+        <div class="c border">Registry
+        </div>
+        <div class="d border">Gift Cards</div>
+        <div class="e border">Sell</div>
+      </div>
+
+    </div>
+
+    <!-- bacckground -->
+    <div class="hero">
+      <div class="scroller">
+        <button class="arrow left-arrow" onclick="scrollLeft()">&#9664;</button>
+        <div class="scroller-content">
+          <img src="/amazone_clone/page1_images/background_img/bg1.jpg">
+          <img src="/amazone_clone/page1_images/background_img/bg2.jpg">
+          <img src="/amazone_clone/page1_images/background_img/bg3.jpg">
+          <img src="/amazone_clone/page1_images/background_img/bg4.jpg">
+          <img src="/amazone_clone/page1_images/background_img/bg5.jpg">
+
+        </div>
+        <button class="arrow right-arrow" onclick="scrollRight()">&#9654;</button>
+
+      </div>
+      <div class="background_text">
+        <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.
+          <a class="link" href="#">Click here to go to amazon.in</a>
+        </p>
+
+      </div>
+    </div>
+    <!-- big-box-layout -->
+    <div class="big_box_layout">
+      <div class="section_1">
+        <div class="box_1 box">
+
+          <div class="box_1_content">
+            <h2>Gaming accessories</h2>
+            <div class="merge_img_1">
+              <div class="img_1 items">
+
+                <img src="/amazone_clone/page1_images/game_accessories/handset.jpg">
+                <p>Headsets</p>
+              </div>
+
+              <div class="img_2 items">
+                <img src="/amazone_clone/page1_images/game_accessories/Gaming accessories.jpg">
+                <p>Keyboard</p>
+              </div>
+
+
+
+
+              <div class="merge_img_2">
+                <div class="img_3 items">
+                  <img src="/amazone_clone/page1_images/game_accessories/mouse.jpg ">
+                  <p>Computer mice</p>
+                </div>
+
+                <div class="img_4 items">
+                  <img src="/amazone_clone/page1_images/game_accessories/chair.jpg">
+                  <p>Chairs</p>
+                </div>
+              </div>
+
+            </div>
+            <a href="#" class="see more link">See more</a>
+          </div>
+        </div>
+        <div class="box_2 box">
+          <div class="box_1_content">
+            <h2>Shop deals in Fashion</h2>
+            <div class="merge_img_1">
+              <div class="img_1 items">
+
+                <img src="/amazone_clone/page1_images/fashion/jeans.jpg">
+                <p>Jeans under $50</p>
+              </div>
+
+              <div class="img_2 items">
+                <img src="/amazone_clone/page1_images/fashion/top.jpg">
+                <p>Tops under $25</p>
+              </div>
+
+
+
+              <div class="merge_img_2">
+                <div class="img_3 items">
+                  <img src="/amazone_clone/page1_images/fashion/dressess.jpg">
+                  <p>Dresses under $30</p>
+                </div>
+
+                <div class="img_4 items">
+                  <img src="/amazone_clone/page1_images/fashion/shoes.jpg">
+                  <p>Shoes under $50</p>
+                </div>
+              </div>
+
+            </div>
+            <a href="#" class="see more link">See more</a>
+          </div>
+        </div>
+
+        <div class="box_3 box">
+          <div class="box_1_content">
+            <h2>Refresh your space</h2>
+            <div class="merge_img_1">
+              <div class="img_1 items">
+
+                <img src="/amazone_clone/page1_images/kitchen/dining.jpg">
+                <p>Dining</p>
+              </div>
+
+              <div class="img_2 items">
+                <img src="/amazone_clone/page1_images/kitchen/home.jpg">
+                <p>Home</p>
+              </div>
+
+
+
+              <div class="merge_img_2">
+                <div class="img_3 items">
+                  <img src="/amazone_clone/page1_images/kitchen/kitchen.jpg">
+                  <p>Kitchen</p>
+                </div>
+
+                <div class="img_4 items">
+                  <img src="/amazone_clone/page1_images/kitchen/beauty.jpg">
+                  <p>Health and Beauty</p>
+                </div>
+              </div>
+
+            </div>
+            <a href="#" class="see more link">See more</a>
+          </div>
+        </div>
+        <div class="box_4 single">
+          <div class="box_1_content ">
+            <h2>Deals in PCs</h2>
+            <div class="merge_img_1">
+              <div class="img_1">
+
+                <img class="img_single" src="/amazone_clone/page1_images/pc/pc's.jpg">
+
+              </div>
+
+
+            </div>
+            <a href="#" class="see_single link">Shop now</a>
+          </div>
+        </div>
+      </div>
+      <div class="section_2">
+        <div class="box_5 box">
+          <div class="box_1_content">
+            <h2>Amazon Gadget Store </h2>
+            <div class="merge_img_1 ">
+              
+                <div class="img_1 ek_img">
+
+                  <img src="/amazone_clone/page1_images/Amazon Gadget Store/smartphones.jpg">
+                  <p>Smartphones</p>
+                </div>
+              </div>
+
+                <div class="merge_img_2 teen_img">
+
+                <div class="img_2 items">
+                  <img src="/amazone_clone/page1_images/Amazon Gadget Store/tablets.jpg">
+                  <p>Tablets</p>
+                </div>
+
+
+
+                
+                  <div class="img_3 items">
+                    <img src="/amazone_clone/page1_images/Amazon Gadget Store/laptops.jpg">
+                    <p>Laptops</p>
+                  </div>
+
+                  <div class="img_4 items">
+                    <img src="/amazone_clone/page1_images/Amazon Gadget Store/tvs.jpg">
+                    <p>TVs</p>
+                  </div>
+                  </div>
+              
+            </div>
+            <a href="#" class="  link alag">See more from Amazon Gadgets</a>
+          </div>
+        </div>
+        <div class="box_6 box">
+          <div class="box_1_content">
+            <h2>Deals on gifts for Dad</h2>
+            <div class="merge_img_1">
+              <div class="img_1 items">
+
+                <img src="/amazone_clone/page1_images/deals for dad/tech.jpg">
+                <p>Tech</p>
+              </div>
+
+              <div class="img_2 items">
+                <img src="/amazone_clone/page1_images/deals for dad/gear.jpg">
+                <p>Adventure gear</p>
+              </div>
+
+
+
+              <div class="merge_img_2">
+                <div class="img_3 items">
+                  <img src="/amazone_clone/page1_images/deals for dad/unique finds.jpg">
+                  <p>Unique finds</p>
+                </div>
+
+                <div class="img_4 items">
+                  <img src="/amazone_clone/page1_images/deals for dad/health.jpg">
+                  <p>Health & wellness</p>
+                </div>
+              </div>
+
+            </div>
+            <a href="#" class="see more link">Shop all</a>
+          </div>
+        </div>
+        <div class="box_7 single">
+          <div class="box_1_content ">
+            <h2>Top Deal</h2>
+            <div class="merge_img_1">
+              <div class="img_1">
+
+                <img class="img_single" src="/amazone_clone/page1_images/top deals/garden tool.jpg">
+
+              </div>
+
+
+            </div>
+            <a href="#" class="see_single link">See all deals</a>
+          </div>
+        </div>
+
+        <div class="box_8 single">
+          <div class="box_1_content ">
+            <h2>Toys under $25</h2>
+            <div class="merge_img_1">
+              <div class="img_1">
+
+                <img class="img_single" src="/amazone_clone/page1_images/toy/toy deal.jpg">
+
+              </div>
+
+
+            </div>
+            <a href="#" class="see_single link">Shop now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="scripts.js"></script>
+
+  </header>
+</body>
+
+</html>
