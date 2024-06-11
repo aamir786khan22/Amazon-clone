@@ -1,0 +1,1 @@
+this is the amazon clone website made with the help of html, css, js 
